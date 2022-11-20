@@ -1,0 +1,117 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    
+    
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2ebe3;
+    padding: 0;
+    margin: 0;
+
+   
+}
+
+h1{
+
+    font-size: 50
+    px;
+
+}
+
+p{
+    font-size: 14px;
+    
+    
+}
+
+.bloc{
+display: flex;
+flex-direction: row;
+border-radius: 5px;
+justify-content: center;
+padding: 200px;
+
+
+}
+
+.text >p{
+    color: grey;
+
+}
+
+
+.text 
+{
+background-color: white;
+height: 450px;
+width: 280px;
+border-radius: 5px;
+
+
+}
+
+img{
+    width: 280px;
+    height: 450px;
+    border-radius: 5px;
+   
+    
+    
+}
+
+button {
+    background-color: lightseagreen;
+    color: white;
+    width: 230px;height: 10%;
+    border-radius: 5px;
+    
+
+
+}
+.prix{
+    margin: -25px;
+    margin-bottom: 20px;
+    
+}
+
+
+span{
+    color:lightseagreen;
+    font-size: 30px;
+    
+}
+.somme{
+    text-decoration: line-through;
+    color: black;
+     font-size: 14px;
+    
+     
+     
+}
+.text , .prix {
+    padding: 25px;
+
+}
+
+@media  screen and (max-width :375px){
+    
+        .bloc{ flex-direction: column;
+    }
+    
+
+    img{
+        height: 200px;
+
+    }
+
+    .text{
+        height: 350px;
+
+    }
+    h1{
+        font-size: 25px;
+    }
+}
